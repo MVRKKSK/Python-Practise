@@ -1,0 +1,15 @@
+list1 = ["hello" , "iam" , "from" , "bhopal"]
+list1.sort()
+print(list1)
+
+list1.reverse()
+print(list1)
+list1.append("Madhya Pradesh")
+print(list1)
+list1.pop(2)
+print(list1)
+
+list2 = ["vit bhopal"]
+list1.extend(list2)
+print(list1)
+
